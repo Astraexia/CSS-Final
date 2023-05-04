@@ -87,6 +87,11 @@ nav {
 
 /* main */
 
+html{
+    scroll-padding-top: 150px;
+    scroll-behavior: smooth;
+}
+
 main{
     width: 100%;
     height: auto;
@@ -260,7 +265,6 @@ h1{
     justify-content: center;
 }
 
-
 .categoria-item{
     display: flex;
     flex-direction: column;
@@ -275,8 +279,6 @@ h1{
 
 .hg{
     background: url(./images/hg-bg.png) no-repeat center/cover;
-
-
 }
 
 .hg a{
@@ -288,7 +290,7 @@ h1{
     display: flex;
     color: var(--backgroud-color-1);
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     width: 100%;
     height: 100%;
     background: #1972787a;
@@ -297,15 +299,12 @@ h1{
     align-items: center;
     opacity: 1;
     transition: 0.5s ease-in-out;
-
 }
 
 /* categoria kits real grade */
 
 .rg {
     background: url(./images/rg-bg.png) no-repeat center/cover;
-
-
 }
 
 .rg a{
@@ -317,7 +316,7 @@ h1{
     display: flex;
     color: var(--backgroud-color-1);
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     width: 100%;
     height: 100%;
     background: #1972787a;
@@ -333,7 +332,6 @@ h1{
 
 .mg{
     background: url(./images/mg-bg.jpg) no-repeat center/cover;
-
 }
 
 .mg a{
@@ -345,7 +343,7 @@ h1{
     display: flex;
     color: var(--backgroud-color-1);
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     width: 100%;
     height: 100%;
     background: #1972787a;
@@ -354,14 +352,12 @@ h1{
     align-items: center;
     opacity: 1;
     transition: 0.5s ease-in-out;
-
 }
 
 /* categoria kits perfect grade */
 
 .pg{
     background: url(./images/pg-bg.png) no-repeat center/cover;
-
 }
 
 .pg a{
@@ -373,7 +369,7 @@ h1{
     display: flex;
     color: var(--backgroud-color-1);
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     width: 100%;
     height: 100%;
     background: #1972787a;
@@ -388,7 +384,6 @@ h1{
 
 .herramientas{
     background: url(./images/herramientas-bg.png) no-repeat center/cover;
-
 }
 
 .herramientas a{
@@ -400,7 +395,7 @@ h1{
     display: flex;
     color: var(--backgroud-color-1);
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     width: 100%;
     height: 100%;
     background: #1972787a;
@@ -426,7 +421,7 @@ h1{
     display: flex;
     color: var(--backgroud-color-1);
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     width: 100%;
     height: 100%;
     background: #1972787a;
@@ -435,7 +430,6 @@ h1{
     align-items: center;
     opacity: 1;
     transition: 0.5s ease-in-out;
-
 }
 
 /* ofertas twfm */
