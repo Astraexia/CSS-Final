@@ -100,10 +100,6 @@
         height: 400px;
       }
     
-      .us-info {
-        width: 100%;
-      }
-    
       .us-info h2 {
         font-size: 24px;
       }
@@ -248,8 +244,6 @@
             width: 50px;
         }
         
-
-
         .hero-intro h1{
             font-size: 32px;
         }
@@ -257,7 +251,6 @@
         .hero-intro p{
             font-size: 24px;
         }
-
 
         .us-info h2{
             font-size: 24px;
@@ -267,11 +260,12 @@
             font-size: 18px;
         }
 
+        .beneficios-info h2{
+            font-size: 24px;
+        }
 
-
-
-        .datospersonales input{
-            width: 500px;
+        .beneficios-info p{
+            font-size: 18px;
         }
 
         .box-item img{
@@ -281,14 +275,13 @@
 
            .categorias{
             display: grid;
-            grid-template-columns: 230px 230px 230px;
-            grid-template-rows: 150px 150px;
+            grid-template-columns: 243px 243px 243px;
+            grid-template-rows: 170px 170px;
            }
 
            .footer-links{
             flex-direction: row;
             font-size: 20px;
-            
            }
 
            footer p{
@@ -297,13 +290,6 @@
 
 
      }
-
-    
-@media (min-width: 1600px) {
-    .map-details{
-        right: 200px;
-    }
-}
 
 @media (min-width: 340px) {
     .footer-links{
